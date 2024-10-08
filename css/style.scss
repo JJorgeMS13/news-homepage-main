@@ -243,7 +243,13 @@ header {
 /* Footer */
 
 .attribution { font-size: 1.6rem; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    &:hover, &:focus {
+        color: $light-vermillion;
+    }
+}
+
 @media screen and (min-width: 48rem) {
     header {
         #btnmenu-toggle {

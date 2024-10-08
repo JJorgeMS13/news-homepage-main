@@ -222,6 +222,9 @@ header .container__nav nav ul li a:hover, header .container__nav nav ul li a:foc
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+.attribution a:hover, .attribution a:focus {
+  color: #F15D51;
+}
 
 @media screen and (min-width: 48rem) {
   header #btnmenu-toggle {
